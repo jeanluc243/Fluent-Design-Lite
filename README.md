@@ -1,6 +1,6 @@
-# fluentdf.github.io
+# fluent-Design-Lite 
 <p align="center">
-  <a href="fluentdf.github.io">
+  <a href="https://github.com/jeanluc243/Fluent-Design-Lite">
     <img src="https://github.com/fluentdf/fluentdf.github.io/blob/master/img/icon.svg" width="150">
   </a>
 
