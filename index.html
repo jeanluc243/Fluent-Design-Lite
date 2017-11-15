@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/fluent.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <h5>Right Aligned Nav Bar</h5>
+        <div >
+            <nav  class="col s12">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">TutorialsPoint</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#">HTML5</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m12 l12">
+            <h5>Left Aligned Nav Bar</h5>
+            <nav>
+                <div class="nav-wrapper container">
+                    <a href="#" class="brand-logo right">TutorialsPoint</a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="#">HTML5</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m12 l12">
+            <h5>Center Aligned Nav Bar</h5>
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo center">TutorialsPoint</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#">Java</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m12 l12">
+            <h5>Nav Bar with Active link</h5>
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo right">TutorialsPoint</a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="#">HTML5</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li class="active"><a href="#">JavaScript</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m12 l12">
+            <h5>Nav Bar with dropdown menu</h5>
+            <ul id="javaDropDown" class="dropdown-content">
+                <li><a href="#!">JSF</a></li>
+                <li><a href="#!">JSP</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">Servlets</a></li>
+            </ul>
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo center">TutorialsPoint</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <!-- Dropdown Trigger -->
+                        <li><a class="dropdown-button" href="#!" data-activates="javaDropDown">Java<i class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m12 l12">
+            <h5>Nav Bar with Links and Icons</h5>
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo right">TutorialsPoint</a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="#"><i class="material-icons left">search</i>HTML5</a></li>
+                        <li><a href="#"><i class="material-icons right">view_module</i>CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <ul class="pagination">
+        <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+        <li class="active"><a href="#!">1</a></li>
+        <li class="waves-effect"><a href="#!">2</a></li>
+        <li class="waves-effect"><a href="#!">3</a></li>
+        <li class="waves-effect"><a href="#!">4</a></li>
+        <li class="waves-effect"><a href="#!">5</a></li>
+        <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+    </ul>
+
+    <br>
+    
+    <nav>
+        <div class="nav-wrapper red">
+            <div class="col s12">
+                <a href="#" class="breadcrumb">Home</a>
+                <a href="#" class="breadcrumb">Technology</a>
+                <a href="#" class="breadcrumb">HTML5</a>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+
+    <h2>Tables Demo</h2>
+    <hr/>
+    <h3>Simple Table</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Class</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Mahesh Parashar</td><td>VI</td><td>A</td></tr>
+            <tr><td>Rahul Sharma</td><td>VI</td><td>B</td></tr>
+            <tr><td>Mohan Sood</td><td>VI</td><td>A</td></tr>
+        </tbody>
+    </table>
+    
+    <h3>Stripped Table with borders</h3>
+    <table class="striped bordered">
+        <thead>
+            <tr><th>Student</th><th>Class</th><th>Grade</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Mahesh Parashar</td><td>VI</td><td>A</td></tr>
+            <tr><td>Rahul Sharma</td><td>VI</td><td>B</td></tr>
+            <tr><td>Mohan Sood</td><td>VI</td><td>A</td></tr>
+        </tbody>
+    </table>
+    <hr/>
+    <h3>Centered Table</h3>
+    <table class="centered">
+        <thead>
+            <tr><th>Student</th><th>Class</th><th>Grade</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Mahesh Parashar</td><td>VI</td><td>A</td></tr>
+            <tr><td>Rahul Sharma</td><td>VI</td><td>B</td></tr>
+            <tr><td>Mohan Sood</td><td>VI</td><td>A</td></tr>
+        </tbody>
+    </table>
+    <h3>Responsive table</h3>
+    <table class="responsive-table">
+        <thead>
+            <tr>
+                <th>Student</th><th>Class</th><th>Data #1</th>
+                <th>Data #2</th><th>Data #3</th><th>Data #4</th>
+                <th>Data #5</th><th>Data #6</th><th>Data #7</th>
+                <th>Data #8</th><th>Data #9</th><th>Data #10</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mahesh Parashar</td><td>VI</td><td>10</td>
+                <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td>
+                <td>16</td><td>17</td><td>19</td><td>20</td>
+            </tr>
+            <tr>
+                <td>Rahul Sharma</td><td>VI</td><td>10</td>
+                <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td>
+                <td>16</td><td>17</td><td>19</td><td>20</td>
+            </tr>
+                <tr><td>Mohan Sood</td><td>VI</td><td>10</td>
+                <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td>
+                <td>16</td><td>17</td><td>19</td><td>20</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <h3>Simple Collection</h3>
+    <hr/>
+    <ul class="collection">
+        <li class="collection-item">HTML 5</li>
+        <li class="collection-item">JQuery</li>
+        <li class="collection-item">JavaScript</li>
+        <li class="collection-item">CSS</li>
+    </ul>
+    <h3>Collection of Links</h3>
+    <hr/>
+    <div class="collection">
+        <a href="#" class="collection-item">HTML 5</a>
+        <a href="#!" class="collection-item active">JQuery</a>
+        <a href="#!" class="collection-item">JavaScript</a>
+        <a href="#!" class="collection-item">CSS</a>
+    </div>
+    <h3>Collection with Header</h3>
+    <hr/>
+    <ul class="collection with-header">
+        <li class="collection-header"><h3>Front End Technologies</h3></li>
+        <li class="collection-item">HTML 5</li>
+        <li class="collection-item">JQuery</li>
+        <li class="collection-item">JavaScript</li>
+        <li class="collection-item">CSS</li>
+    </ul>
+    <h3>Collection with Secondary Content</h3>
+    <hr/>
+    <ul class="collection">
+        <li class="collection-item"><div>HTML 5<a href="#!" class="secondary-content"><i class="material-icons">cloud</i></a></div></li>
+        <li class="collection-item"><div>JQuery<a href="#!" class="secondary-content"><i class="material-icons">cloud</i></a></div></li>
+        <li class="collection-item"><div>JavaScript<a href="#!" class="secondary-content"><i class="material-icons">cloud</i></a></div></li>
+        <li class="collection-item"><div>CSS<a href="#!" class="secondary-content"><i class="material-icons">cloud</i></a></div></li>
+    </ul>
+    <h3>Collection with Avatar</h3><hr/>
+    <ul class="collection">
+        <li class="collection-item avatar">
+            <img alt="HTML5" src="html5-mini-logo.jpg" class="circle">
+            <span class="title">HTML5</span>
+            <p>HTML5 is the next major revision of the HTML standard
+            superseding HTML 4.01, XHTML 1.0, and XHTML 1.1.<br/> HTML5 is a standard for
+            structuring and presenting content on the World Wide Web.</p>
+            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+        </li>
+        <li class="collection-item avatar">
+            <i class="material-icons circle green">insert_chart</i>
+            <span class="title">HighCharts</span>
+            <p></p>
+            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+        </li>
+    </ul>    
+    <h3>Collection with dismissible content</h3><hr/>
+    <ul class="collection">
+        <li class="collection-item dismissable">HTML 5</li>
+        <li class="collection-item dismissable">JQuery</li>
+        <li class="collection-item dismissable">JavaScript</li>
+        <li class="collection-item dismissable">CSS</li>
+    </ul>
+    
+    <br>
+
+    <h4>Default Preloader</h4>
+    <div class="progress">
+        <div class="determinate" style="width: 50%"></div>
+    </div>
+    <DIV class="fluent-progress">
+        <div class="indeterminate">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </DIV>
+
+    <div class="fluent-progress">
+        <div class="ring large">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="fluent-progress">
+        <div class="ring small">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <br>
+
+    <h2>Badges Demo</h2>
+    <hr/>
+    <h3>Badges in List</h3>
+        <div class="collection">
+            <a href="#" class="collection-item">Inbox<span class="badge">12</span></a>
+            <a href="#" class="collection-item">Unread<span class="new badge">4</span></a>
+            <a href="#" class="collection-item">Sent</a>
+            <a href="#" class="collection-item">Outbox<span class="badge">14</span></a>
+        </div>
+    <h3>Badges in dropdowns</h3>
+    <ul id="dropdown" class="dropdown-content">
+        <li><a href="#">Inbox<span class="badge">12</span></a></li>
+        <li><a href="#!">Unread<span class="new badge">4</span></a></li>
+        <li><a href="#">Sent</a></li>
+        <li><a href="#">Outbox<span class="badge">14</span></a></li>
+    </ul>
+    <a class="btn dropdown-button" href="#" data-activates="dropdown">Dropdown<i class="mdi-navigation-arrow-drop-down right"></i></a>
+    <h3>Badges in Navigation</h3>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="" class="brand-logo">TutorialsPoint</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="">Inbox</a></li>
+                <li><a href="">Unread<span class="yellow-text badge">4</span></a></li>
+                <li><a href="#">Sent</a></li>
+                <li><a href="#">Outbox</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <br>
+
+    <div class="row">
+        <div class="col s12 m6">
+            <div class="card gray lighten">
+                <div class="card-content">
+                    <span class="card-title"><h3>Learn HTML5</h3></span>
+                    <p>HTML5 is the next major revision of the HTML standard
+                    superseding HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for
+                    structuring and presenting content on the World Wide Web.</p>
+                </div>
+                <div class="card-action">
+                    <button class="btn waves-effect waves-light blue-grey"><i class="material-icons">share</i></button>
+                    <a class="right blue-grey-text" href="http://www.tutorialspoint.com">www.tutorialspoint.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6">
+            <div class="card blue-grey lighten-4">
+                <div class="card-image">
+                    <img src="html5-mini-logo.jpg">
+                </div>
+                <div class="card-content">
+                    <p>HTML5 is the next major revision of the HTML standard
+                    superseding HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for
+                    structuring and presenting content on the World Wide Web.</p>
+                </div>
+                <div class="card-action">
+                    <button class="btn waves-effect waves-light blue-grey"><i class="material-icons">share</i></button>
+                    <a class="right blue-grey-text" href="http://www.tutorialspoint.com">www.tutorialspoint.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m6">
+            <div class="card blue-grey lighten-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="html5-mini-logo.jpg">
+                </div>
+                <div class="card-content activator">
+                    <p>Click the image to reveal more information.</p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">HTML5<i class="material-icons right">close</i></span>
+                    <p>HTML5 is the next major revision of the HTML standard
+                    superseding HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for
+                    structuring and presenting content on the World Wide Web.</p>
+                </div>
+                <div class="card-action">
+                    <button class="btn waves-effect waves-light blue-grey"><i class="material-icons">share</i></button>
+                    <a class="right blue-grey-text" href="http://www.tutorialspoint.com">www.tutorialspoint.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m3">
+            <div class="card-panel teal">
+                <span class="white-text">Simple Card</span>
+            </div>
+        </div>
+        <div class="col s12 m3">
+            <div class="card small teal">
+                <span class="white-text">Small Card</span>
+            </div>
+        </div>
+        <div class="col s12 m3">
+            <div class="card medium teal">
+                <span class="white-text">Medium Card</span>
+            </div>
+        </div>
+        <div class="col s12 m3">
+            <div class="card large teal">
+                <span class="white-text">Large Card</span>
+            </div>
+        </div>
+    </div>
+    
+    <br>
+    <a href="" class="btn">Button</a>
+    <a href="" class="btn-lg">Button</a>
+    <a href="" class="btn gray">se connecter</a>
+    
+    <br>
+
+    <br>
+    
+    <div class="chip">
+        <img alt="HTML5" src="html5-mini-logo.jpg">HTML 5
+    </div>
+    <div class="chip">
+        <i class="material-icons">close</i>
+    </div>
+
+    <br>
+    <div class="row">
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input placeholder="Username" value="Mahesh" id="name" type="text" class="active validate" required>
+                    <label for="name">Username</label>
+                </div>
+                <div class="input-field col s6">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" placeholder="Password" class="validate" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Email" id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <textarea id="address" class="materialize-textarea"></textarea>
+                    <label for="address">Address</label>
+                 </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Comments (Disabled)" id="comments" type="text" disabled>
+                    <label for="comments">Comments</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <p>
+                        <input id="married" type="checkbox" checked="checked">
+                        <label for="married">Married</label>
+                    </p>
+                    <p>
+                        <input id="single" type="checkbox" class="filled-in" >
+                        <label for="single">Single</label>
+                    </p>
+                    <p>
+                        <input id="dontknow" type="checkbox" disabled="disabled">
+                        <label for="dontknow">Don't know (Disabled)</label>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <p>
+                        <input id="male" type="radio" name="gender" value="male" checked>
+                        <label for="male">Male</label>
+                    </p>
+                    <p>
+                        <input id="female" type="radio" name="gender" value="female" checked>
+                        <label for="female">Female</label>
+                    </p>
+                    <p>
+                        <input id="dontknow1" type="radio" name="gender" value="female" disabled>
+                        <label for="dontknow1">Don't know (Disabled)</label>
+                    </p>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <br>
+    <div class="row">
+        <form class="col s12">
+            <div class="row">
+                <label>Materialize Select</label>
+                <select>
+                    <option value="" disabled selected>Select Fruit</option>
+                    <option value="1">Mango</option>
+                    <option value="2">Orange</option>
+                    <option value="3">Apple</option>
+                </select>
+            </div>
+            <div class="row">
+                <label>Materialize Multi Select</label>
+                <select multiple>
+                    <option value="" disabled selected>Select Fruit</option>
+                    <option value="1">Mango</option>
+                    <option value="2">Orange</option>
+                    <option value="3">Apple</option>
+                </select>
+            </div>
+            <div class="row">
+                <label>Select with Optgroup</label>
+                <select>
+                    <optgroup label="Fruits">
+                        <option value="1">Mango</option>
+                        <option value="2">Orange</option>
+                        <option value="3">Apple</option>
+                    </optgroup>
+                    <optgroup label="Vegs">
+                        <option value="4">Brinjal</option>
+                        <option value="5">Potato</option>
+                        <option value="6">Tomato</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="row">
+                <label>Select with images</label>
+                <select class="icons">
+                    <option value="" disabled selected>Select Technology</option>
+                    <option value="1" data-icon="html5-mini-logo.jpg" class="circle">HTML</option>
+                    <option value="2">JavaScript</option>
+                    <option value="3">CSS</option>
+                </select>
+            </div>
+            <div class="row">
+                <label>Browser default Select</label>
+                <select class="browser-default">
+                    <option value="" disabled selected>Select Fruit</option>
+                    <option value="1">Mango</option>
+                    <option value="2">Orange</option>
+                    <option value="3">Apple</option>
+                </select>
+            </div>
+            <div class="row">
+                <label>Disabled Materialize Select</label><label>Disabled Materialize Select</label>
+                <select disabled>
+                    <option value="" disabled selected>Select Fruit</option>
+                    <option value="1">Mango</option>
+                    <option value="2">Orange</option>
+                    <option value="3">Apple</option>
+                </select>
+            </div>
+            <div class="row">
+                <label>Disabled Browser default Select</label>
+                <select class="browser-default" disabled>
+                    <option value="" disabled selected>Select Fruit</option>
+                    <option value="1">Mango</option>
+                    <option value="2">Orange</option>
+                    <option value="3">Apple</option>
+                </select>
+            </div>
+        </form>
+    </div>
+    <br>
+    <div class="row">
+        <form class="col s12">
+            <div class="row">
+                <label>Materialize Switch</label>
+                <div class="switch"><label>Off<input type="checkbox" checked><span class="lever"></span>On</label></div>
+            </div>
+            <div class="row">
+                <label>Materialize Disabled Switch</label>
+                <div class="switch"><label>Off<input disabled type="checkbox"><span class="lever"></span>On</label></div>
+            </div>
+        </form>
+    </div>
+    <br>
+    <div class="row">
+        <form class="col s12">
+            <div class="row">
+                <label>Materialize Range</label>
+                <p class="range-field">
+                    <input type="range" id="test" min="0" max="100" />
+                </p>
+            </div>
+        </form>
+    </div>
+    
+    <br>
+
+    <div class="input-field">
+        <input type="text" placeholder="love">
+    </div>
+
+    <footer class="page-footer">
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <h5 class="white-text">Footer Content</h5>
+            </div>
+            <div class="col">
+                <ul>
+                    <li><a href="#" class="white-text text-lighten-4 right">Help</a></li>
+                    <li><a href="#" class="white-text text-lighten-4 right">Privacy and Terms</a></li>
+                    <li><a href="#" class="white-text text-lighten-4 right">User Agreement</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2016 Copyright Information
+                <a class="grey-text text-lighten-4 right" href="#!">Links</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/fluent.js"></script>
+</body>
+</html>
